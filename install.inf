@@ -9,9 +9,9 @@ AddReg=Install_AddReg
 DelReg=Uninstall_DelReg
 
 [Uninstall_DelReg]
-hkcr,"*\Shell\UglifyJS"
+hkcr,"*\Shell\UglifyJS2"
 
 [Install_AddReg]
-hkcr,"*\Shell\UglifyJS",,,"Process with &UglifyJS2"
-hkcr,"*\Shell\UglifyJS\command",,,"""%01%\UglifyJS.cmd"" ""%%1"""
+hkcr,"*\Shell\UglifyJS2",,,"Process with &UglifyJS2"
+hkcr,"*\Shell\UglifyJS2\command",,,"""%01%\UglifyJS.cmd"" ""%%1"""
 
